@@ -7,14 +7,82 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color:antiquewhite;
   color: #212121;
   line-height: 1.5;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
 }
 
 #search-box {
   font: inherit;
+  width: 250px;
+  margin: 16px;
   padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+  border-radius: 7px;
+  border: 2px solid steelblue;
+  background-color: lightblue;
+}
+
+.container {
+  height: 80px;
+  width: 100%;
+  background-color:lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: initial;
+  color: steelblue;
+}
+
+.country-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.country-info {
+  color: steelblue;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.country {
+  max-width: 500px;
+  max-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country p {
+  color: steelblue;
+  font-weight: 700;
+}
+
+.country img {
+  width: 50px;
+  height: auto;
+}
+
+.country-info img {
+  width: 150px;
+  height: auto;
 }
